@@ -20,7 +20,7 @@ const CardList = React.memo ((props) => {
                 )}
             </ul>
 
-             <Link className="button button_list" to="/">На главную</Link>
+             <Link className="button button_list" to="/byzantium">На главную</Link>
 
         </section>
     );
