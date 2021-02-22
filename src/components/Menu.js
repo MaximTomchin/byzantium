@@ -19,7 +19,7 @@ const Menu = React.memo ((props) => {
 
                 <MenuItem
                     class={"menu__item_type_emperors"}
-                    link={'/emperors'}
+                    link={'/byzantium/emperors'}
                     title={"Византийские императоры"}
                     subtitle={"Все правители Византии от Константина I до Константина XI"}
                 />
