@@ -14,7 +14,7 @@ function PageNotFound () {
                         Страница находится в разработке
                     </p>
 
-                    <Link className="button button_not-found" to="/">Назад</Link>
+                    <Link className="button button_not-found" to="/byzantium">Назад</Link>
                 </div>
 
     )

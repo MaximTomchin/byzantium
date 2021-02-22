@@ -21,7 +21,7 @@ const App = React.memo ((props) =>  {
                             <Title/>
                             <Menu/>
                         </Route>
-                        <Route path="/byzantium/emperors">
+                        <Route exact path="/byzantium/emperors">
                             <ScrollToTop />
                             <ListOfEmperors />
                         </Route>

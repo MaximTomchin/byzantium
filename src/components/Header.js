@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const Header = React.memo((props) => {
     return (
         <header className="header">
-            <NavLink className="header__link" exact to="/">
+            <NavLink className="header__link" exact to="/byzantium">
                 <img src={logo} alt="лого" className="header__logo"/>
             </NavLink>
             <nav className="header__about">
