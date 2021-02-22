@@ -1,0 +1,21 @@
+.emperors {
+    width: 97.5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 15px;
+  }
+
+.emperors:first-of-type {
+    margin: 30px 15px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .emperors {
+        width: 100%;
+        margin: 0;
+    }
+    .emperors:first-of-type {
+        margin: 30px 0 0;
+    }
+}

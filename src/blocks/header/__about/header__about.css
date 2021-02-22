@@ -1,0 +1,13 @@
+.header__about {
+    display: flex;
+    justify-content: space-between; 
+    list-style-type: none;
+    padding: 30px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .header__about {
+        padding: 0;
+    }
+}

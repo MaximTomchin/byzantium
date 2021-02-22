@@ -1,0 +1,11 @@
+.cards__image {
+    box-sizing: border-box;
+    width: 60%;    
+    border-radius: 50%;       
+    object-fit: contain;
+    object-position: center center;
+    margin: 16px auto;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+ } 

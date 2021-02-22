@@ -1,0 +1,13 @@
+.menu__title {
+    text-align: center;
+    width: 90%;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.15;
+    margin: 0 auto 0 auto;
+}
+@media screen and (max-width: 768px) {
+    .menu__title {
+        font-size: 32px;
+    }
+}

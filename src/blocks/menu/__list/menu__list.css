@@ -1,0 +1,14 @@
+.menu__list {
+    width: 100%;
+    padding-top: 30px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 16px;
+    justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+    .menu__list {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+}

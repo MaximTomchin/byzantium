@@ -1,0 +1,21 @@
+.justinian__subtitle {
+  align-self: center;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 2;
+  max-width: 40%;  
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .justinian__subtitle {
+    font-size: 24px;
+    max-width: 70%;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .justinian__subtitle {
+    font-size: 54px;
+  }
+}

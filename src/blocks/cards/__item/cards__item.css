@@ -1,0 +1,23 @@
+.cards__item {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;   
+    background-color: whitesmoke;  
+    list-style-type: none;
+    opacity: .7;
+    transition: opacity .5s ease;
+}
+
+.cards__item:hover {
+    -webkit-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    transform: scale(1.08);
+    opacity: 1; 
+}
+
+
+
+  

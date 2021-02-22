@@ -1,0 +1,11 @@
+.not-found__text {
+    align-self: center;
+    text-align: center;
+    font-size: 36px;
+    font-weight: normal;
+}
+@media screen and (max-width: 768px) {
+    .not-found__text {
+        font-size: 24px;
+    }
+}

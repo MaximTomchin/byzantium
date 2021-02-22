@@ -1,0 +1,17 @@
+.button {
+    background-color: #000;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.17;
+    text-decoration: none;
+    color: #b2b2b2;
+    padding: 15px 40px;
+    transition: opacity .3s ease;
+}
+.button:hover {
+    color: #b2b2b2;
+    text-decoration: none;
+    opacity: .8;
+}

@@ -1,0 +1,19 @@
+
+.justinian {
+    background-color: #1f1f1f;
+    color: #FFFFFF;
+    width: 100%;
+    min-height: 85vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 48px 48px 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+    .justinian {
+        padding: 24px 24px 0;
+        min-height: auto;
+    }
+}

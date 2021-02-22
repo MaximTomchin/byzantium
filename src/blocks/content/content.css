@@ -1,0 +1,11 @@
+.content {
+    width: 100%;
+    display: grid;
+    gap: 80px;
+    background-color: white;
+}
+@media screen and (max-width: 768px) {
+    .content {
+        gap: 30px;
+    }
+}

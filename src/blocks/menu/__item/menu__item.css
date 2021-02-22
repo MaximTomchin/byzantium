@@ -1,0 +1,16 @@
+.menu__item {
+    width: 100%;
+    min-height: 350px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-image: url("../../../images/diptih.jpeg");
+    background-size: cover;
+    background-position: center center;
+}
+.menu__item:hover {
+    -webkit-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    transform: scale(1.04);
+}
