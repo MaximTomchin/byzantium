@@ -16,12 +16,12 @@ const App = React.memo ((props) =>  {
                 <Header />
                 <main className="content">
                     <Switch>
-                        <Route exact path="/">
+                        <Route exact path="/byzantium">
                             <ScrollToTop />
                             <Title/>
                             <Menu/>
                         </Route>
-                        <Route path="/emperors">
+                        <Route path="/byzantium/emperors">
                             <ScrollToTop />
                             <ListOfEmperors />
                         </Route>

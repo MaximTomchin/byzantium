@@ -9,7 +9,7 @@ const Header = React.memo((props) => {
                 <img src={logo} alt="лого" className="header__logo"/>
             </NavLink>
             <nav className="header__about">
-                <NavLink className="header__about_link" exact to="/about">O проекте</NavLink>
+                <NavLink className="header__about_link" exact to="/byzantium/about">O проекте</NavLink>
             </nav>
         </header>
     );
