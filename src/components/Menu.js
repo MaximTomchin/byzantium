@@ -12,7 +12,7 @@ const Menu = React.memo ((props) => {
 
                 <MenuItem
                     class={"menu__item_type_facts"}
-                    link={'/facts'}
+                    link={'/byzantium/facts'}
                     title={"Византия: главное"}
                     subtitle={"История Восточной Римской империи в цифрах и фактах"}
                 />
@@ -26,28 +26,28 @@ const Menu = React.memo ((props) => {
 
                 <MenuItem
                     class={"menu__item_type_timeline"}
-                    link={'/timeline'}
+                    link={'/byzantium/timeline'}
                     title={"Хронология на карте"}
                     subtitle={"Все основные события тысячелетней истории Византии на карте"}
                 />
 
                 <MenuItem
                     class={"menu__item_type_culture"}
-                    link={'/culture'}
+                    link={'/byzantium/culture'}
                     title={"Культура и искусство"}
                     subtitle={"Архитектура, изобразительное искусство и многое другое"}
                 />
 
                 <MenuItem
                     class={"menu__item_type_heritage"}
-                    link={'/heritage'}
+                    link={'/byzantium/heritage'}
                     title={"Наследие"}
                     subtitle={"Что оставила Византия после себя"}
                 />
 
                 <MenuItem
                     class={"menu__item_type_library"}
-                    link={'/library'}
+                    link={'/byzantium/library'}
                     title={"Что почитать о Византии?"}
                     subtitle={"Книги и интернет-ресурсы о Византии"}
                 />

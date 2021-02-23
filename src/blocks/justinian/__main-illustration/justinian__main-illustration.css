@@ -5,7 +5,13 @@
     width: 42%;
     z-index: 1;
 }
-@media screen and (max-width: 1022px) {
+@media screen and (min-width: 900px) and (max-width: 1022px) {
+    .justinian__main-illustration {
+        width: 55%;
+    }
+}
+
+@media screen and  (max-width: 899px) {
     .justinian__main-illustration {
         visibility: hidden;
     }
