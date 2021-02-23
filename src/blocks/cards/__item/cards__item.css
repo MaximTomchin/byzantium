@@ -8,7 +8,10 @@
     background-color: whitesmoke;  
     list-style-type: none;
     opacity: .7;
-    transition: opacity .5s ease;
+    transition: all .3s ease 0s;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
 }
 
 .cards__item:hover {
@@ -18,6 +21,11 @@
     opacity: 1; 
 }
 
+@media screen and (max-width: 768px) {
+    .cards__item:hover {
+        transform: none;
+    }
+}
 
 
   

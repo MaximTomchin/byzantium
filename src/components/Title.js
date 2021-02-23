@@ -10,7 +10,7 @@ const Title = React.memo ((props) => {
         leave: { opacity: 0 },
         config: config.molasses,
     })
-    useEffect(() => void setInterval(() => set(state => (state + 1) % 3), 9000), [])
+    useEffect(() => void setInterval(() => set(state => (state + 1) % 3), 7500), [])
 
     return (
         <section className="justinian">

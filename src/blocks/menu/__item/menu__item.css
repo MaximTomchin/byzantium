@@ -8,9 +8,22 @@
     background-image: url("../../../images/diptih.jpeg");
     background-size: cover;
     background-position: center center;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
 }
+
 .menu__item:hover {
     -webkit-transform: scale(1.04);
     -ms-transform: scale(1.04);
     transform: scale(1.04);
+}
+
+@media screen and (max-width: 768px) {
+    .menu__item:hover {
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
 }
