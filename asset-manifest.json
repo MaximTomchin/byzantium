@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/byzantium/static/css/main.a004006f.chunk.css",
+    "main.css": "/byzantium/static/css/main.80de0688.chunk.css",
     "main.js": "/byzantium/static/js/main.d5c117c4.chunk.js",
     "main.js.map": "/byzantium/static/js/main.d5c117c4.chunk.js.map",
     "runtime-main.js": "/byzantium/static/js/runtime-main.07c96cd6.js",
@@ -8,7 +8,7 @@
     "static/js/2.6a0d6537.chunk.js": "/byzantium/static/js/2.6a0d6537.chunk.js",
     "static/js/2.6a0d6537.chunk.js.map": "/byzantium/static/js/2.6a0d6537.chunk.js.map",
     "index.html": "/byzantium/index.html",
-    "static/css/main.a004006f.chunk.css.map": "/byzantium/static/css/main.a004006f.chunk.css.map",
+    "static/css/main.80de0688.chunk.css.map": "/byzantium/static/css/main.80de0688.chunk.css.map",
     "static/js/2.6a0d6537.chunk.js.LICENSE.txt": "/byzantium/static/js/2.6a0d6537.chunk.js.LICENSE.txt",
     "static/media/index.css": "/byzantium/static/media/library.e0fa9b41.jpg",
     "static/media/Andronikos_III_Palaiologos.1568721c.jpg": "/byzantium/static/media/Andronikos_III_Palaiologos.1568721c.jpg",
@@ -110,7 +110,7 @@
   "entrypoints": [
     "static/js/runtime-main.07c96cd6.js",
     "static/js/2.6a0d6537.chunk.js",
-    "static/css/main.a004006f.chunk.css",
+    "static/css/main.80de0688.chunk.css",
     "static/js/main.d5c117c4.chunk.js"
   ]
 }
