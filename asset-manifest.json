@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/byzantium/static/css/main.585d37c5.chunk.css",
-    "main.js": "/byzantium/static/js/main.747bf8e5.chunk.js",
-    "main.js.map": "/byzantium/static/js/main.747bf8e5.chunk.js.map",
+    "main.css": "/byzantium/static/css/main.35874a78.chunk.css",
+    "main.js": "/byzantium/static/js/main.a47f4e80.chunk.js",
+    "main.js.map": "/byzantium/static/js/main.a47f4e80.chunk.js.map",
     "runtime-main.js": "/byzantium/static/js/runtime-main.07c96cd6.js",
     "runtime-main.js.map": "/byzantium/static/js/runtime-main.07c96cd6.js.map",
     "static/js/2.6a0d6537.chunk.js": "/byzantium/static/js/2.6a0d6537.chunk.js",
     "static/js/2.6a0d6537.chunk.js.map": "/byzantium/static/js/2.6a0d6537.chunk.js.map",
     "index.html": "/byzantium/index.html",
-    "static/css/main.585d37c5.chunk.css.map": "/byzantium/static/css/main.585d37c5.chunk.css.map",
+    "static/css/main.35874a78.chunk.css.map": "/byzantium/static/css/main.35874a78.chunk.css.map",
     "static/js/2.6a0d6537.chunk.js.LICENSE.txt": "/byzantium/static/js/2.6a0d6537.chunk.js.LICENSE.txt",
     "static/media/index.css": "/byzantium/static/media/library.e0fa9b41.jpg",
     "static/media/Andronikos_III_Palaiologos.1568721c.jpg": "/byzantium/static/media/Andronikos_III_Palaiologos.1568721c.jpg",
@@ -110,7 +110,7 @@
   "entrypoints": [
     "static/js/runtime-main.07c96cd6.js",
     "static/js/2.6a0d6537.chunk.js",
-    "static/css/main.585d37c5.chunk.css",
-    "static/js/main.747bf8e5.chunk.js"
+    "static/css/main.35874a78.chunk.css",
+    "static/js/main.a47f4e80.chunk.js"
   ]
 }
