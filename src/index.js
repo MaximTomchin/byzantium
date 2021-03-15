@@ -1,14 +1,18 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { BrowserRouter } from 'react-router-dom';
-import App from './components/App.js';
+
+const App = lazy(() => import ('./components/App.js'));
+const renderLoader = () => <p>Идёт загрузка</p>;
 
 ReactDOM.render(
-  <React.StrictMode>
-      <BrowserRouter>
-         <App />
-      </BrowserRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <Suspense fallback={renderLoader()}>
+            <BrowserRouter>
+            <App />
+            </BrowserRouter>
+        </Suspense>
+    </React.StrictMode>,
+    document.getElementById('root')
 );

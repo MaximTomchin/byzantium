@@ -1,7 +1,5 @@
 .header__about {
     display: flex;
-    justify-content: space-between; 
-    list-style-type: none;
     padding: 30px;
 }
 

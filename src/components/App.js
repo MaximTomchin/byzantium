@@ -1,18 +1,20 @@
-import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import ScrollToTop from "./ScrollToTop";
-import Header from './Header';
-import PageNotFound from './PageNotFound';
-import Footer from './Footer';
-import ListOfEmperors from './ListOfEmperors';
+import React, { Suspense, lazy } from 'react';
+import { Route, Switch } from 'react-router-dom';
 import '../index.css';
-import Title from './Title';
-import Menu from './Menu';
+import ScrollToTop from "./ScrollToTop";
+
+const Header = lazy(() => import ('./Header'));
+const Footer = lazy(() => import ('./Footer'));
+const ListOfEmperors = lazy(() => import ('./ListOfEmperors'));
+const Title = lazy(() => import ('./Title'));
+const Menu = lazy(() => import ('./Menu'));
+const PageNotFound = lazy(() => import ('./PageNotFound'));
+const renderLoader = () => <p>Идёт загрузка</p>;
 
 const App = React.memo ((props) =>  {
     return (
         <div className="page">
-            <BrowserRouter>
+            <Suspense fallback={renderLoader()}>
                 <Header />
                 <main className="content">
                     <Switch>
@@ -32,9 +34,8 @@ const App = React.memo ((props) =>  {
                     </Switch>
                 </main>
                 <Footer />
-            </BrowserRouter>
+            </Suspense>
         </div>
-
     );
 });
 

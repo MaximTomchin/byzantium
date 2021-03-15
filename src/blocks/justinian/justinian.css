@@ -7,7 +7,6 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    align-content: center;
     padding: 48px 48px 0;
     box-sizing: border-box;
 }

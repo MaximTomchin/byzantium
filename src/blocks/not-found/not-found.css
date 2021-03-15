@@ -4,12 +4,10 @@
     background-image: url("../../images/404.jpg");
     background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;
     color: #FFFFFF;
     position: relative;
     display: flex;
     flex-direction: column;
-    align-content: center;
     padding: 48px 48px 0;
     box-sizing: border-box;
 }

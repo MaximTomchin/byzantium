@@ -1,5 +1,6 @@
-import React from 'react';
-import MenuItem from "./MenuItem";
+import React, {Suspense} from 'react';
+const MenuItem = React.lazy(() => import ('./MenuItem'));
+const renderLoader = () => <p>Идёт загрузка</p>;
 
 const Menu = React.memo ((props) => {
 
@@ -9,6 +10,8 @@ const Menu = React.memo ((props) => {
             <h2 className="menu__title">Самое важное о Византийской империи</h2>
 
             <nav className="menu__list">
+
+                <Suspense fallback={renderLoader()}>
 
                 <MenuItem
                     class={"menu__item_type_facts"}
@@ -51,6 +54,7 @@ const Menu = React.memo ((props) => {
                     title={"Что почитать о Византии?"}
                     subtitle={"Книги и интернет-ресурсы о Византии"}
                 />
+                </Suspense>
             </nav>
         </section>
     );

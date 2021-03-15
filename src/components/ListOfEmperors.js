@@ -1,15 +1,16 @@
-import React from 'react';
-import CardList from "./CardList";
-import ImagePopup from "./ImagePopup";
+import React, {Suspense, lazy, useState} from 'react';
 import eastRomanEmperors from "../utils/eastRomanEmperors";
 import emperors from "../utils/emperors";
 import latinEmperors from "../utils/latinEmperors";
 import nikeanEmperors from "../utils/nikeanEmperors";
 import lateEmperors from "../utils/lateEmperors";
 
+const CardList = lazy(() => import ('./CardList'));
+const ImagePopup = lazy(() => import ('./ImagePopup'));
+const renderLoader = () => <p>Идёт загрузка</p>;
 
 const ListOfEmperors = React.memo ((props) => {
-    const [selectedCard, setSelectedCard] = React.useState(null);
+    const [selectedCard, setSelectedCard] = useState(null);
     function handleCardClick (card) {
         setSelectedCard({
             name: card.name,
@@ -23,6 +24,8 @@ const ListOfEmperors = React.memo ((props) => {
 
     return (
         <section className="list">
+
+            <Suspense fallback={renderLoader()}>
 
             <CardList
                 title={'Императоры востока Римской империи'}
@@ -67,6 +70,8 @@ const ListOfEmperors = React.memo ((props) => {
                 card = {selectedCard}
                 onClose={closeAllPopups}
             />
+
+            </Suspense>
 
         </section>
     );
