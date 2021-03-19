@@ -1,7 +1,12 @@
-# Imperium Romanun Orientale (проект в разработке)
+# Imperium Romanun Orientale
+[Ссылка на проект на GitHub pages](https://maximtomchin.github.io/byzantium)
 
+## О Проекте
 Небольшое тренировочное приложение, написанное на React.js, посвящённое истории Византии 
-[Ссылка на проект на GitHub pages](https://maximtomchin.github.io/byzantium).
+
+## Cтек 
+
+React.js /react-spring /React Router Dom /HTML /CSS /БЭМ /Адаптивная вёрстка /Кроссбраузерная вёрстка
 
 ## Функционал
 
